@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accept Data</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="container">
+        <input
+          type="text"
+          name=""
+          id="code"
+          class="inputClass"
+          placeholder="Enter the code : "
+        />
+        <input
+          type="text"
+          name=""
+          id="name"
+          class="inputClass"
+          placeholder="Enter the name : "
+        />
+        <input
+          type="text"
+          name=""
+          id="price"
+          class="inputClass"
+          placeholder="Enter the price : "
+        />
+        <div class="buttonContainer">
+          <button onclick="onAdd()">Add</button>
+          <button onclick="clearFields()">Cancel</button>
+        </div>
+        <table border="1" id="myTable">
+          <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
